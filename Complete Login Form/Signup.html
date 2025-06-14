@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR designsHub</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(720p-nature-background-ux0kz3dxpmtu4xrl.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Roboto;
+}
+
+#form {
+    background-color: rgba(51, 49, 49, 0.493);
+    padding: 100px;
+    position: relative;
+    width: 14vw;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: inset -7px -10px 100px rgba(0, 0, 0, 0.527)
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: -80px;
+    color:greenyellow;
+    cursor: auto;
+}
+
+hr {
+    width: 389.67px;
+    margin-left: -99.9px;
+}
+
+#inputs {
+    width: 200px;
+    color:rgba(172, 255, 47, 0.747);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#inputs1 {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    color: rgba(172, 255, 47, 0.747);
+    font-size: 19px;
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(37, 37, 37, 0.747);
+    border-color:rgba(172, 255, 47, 0.747);
+    border-radius: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    box-shadow: inset -7px -10px 100px rgba(0, 0, 0, 0.24);
+    color: rgba(172, 255, 47, 0.747);
+    font-style: italic;
+}
+
+.placeholder:focus {
+    background-color:rgba(172, 255, 47, 0.747);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#a {
+    color: rgba(172, 255, 47, 0.747);
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: -22px;
+    margin-bottom: 5px;
+}
+
+#a:hover {
+    text-decoration-line: underline;
+    font-size: 18px;
+    transition: all 0.2s ease 0s;
+}
+
+
+#button {
+    padding: 7px 90px 7px 90px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+     background-color: rgba(37, 37, 37, 0.747);
+    border-color:rgba(172, 255, 47, 0.747);
+    box-shadow: inset -7px -10px 100px rgb(0, 0, 0, 0.24);
+    color: greenyellow;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    margin-left: -10px;
+}
+
+#button:hover {
+    color: white;
+    font-weight: bold;
+    background-color: greenyellow;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#member {
+    color:rgba(172, 255, 47, 0.705);
+    margin-top: 16px;
+    margin-left: -10%;
+    margin-right: -20px;
+
+}
+
+#signup {
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: -10px;
+}
+
+#signup:hover {
+    text-decoration-line: underline;
+    font-size: 18px;
+}
+</style>
+
+<body>
+    <form id="form" action="Login..html">
+        <h1>
+            Sign Up Here
+        </h1>
+        <hr>
+        <div id="inputs">
+            <label class="name" for="username">Name
+                <input class="placeholder" type="text" name="username" placeholder="" required >
+            </label>
+        </div>
+
+        <div id="inputs1">
+            <label for="Email">Email
+                <input class="placeholder" type="email" name="email" placeholder="" required>
+            </label>
+        </div>
+        <br><br><br>
+        <button id="button" type="submit">SignUp</button>
+        <div id="member">
+            Already Have an Account ?
+
+            <a id="signup" href="5.html">Login</a>
+        </div>
+</body>
+
+</html>
