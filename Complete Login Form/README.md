@@ -40,6 +40,7 @@ git clone https://github.com/YourUsername/YourRepoName.git
 ```text
 HTML5  
 CSS3
+Font awesome icons
 ```
 
 ---
@@ -54,4 +55,3 @@ CSS3
 ---
 
 ⭐ Feel free to give this project a star if you found it helpful!
-
