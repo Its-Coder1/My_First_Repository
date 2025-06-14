@@ -10,7 +10,7 @@ This is a simple HTML and CSS project that displays social media icons with tool
 
 ## 🚀 Live Demo
 
-[Click here to view live](https://its-coder1.github.io/My-first-repository/)
+[Click here to view live](https://its-coder1.github.io/My_First_Repository/)
 
 ## 🛠️ Installation
 
