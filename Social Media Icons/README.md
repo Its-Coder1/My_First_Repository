@@ -8,9 +8,6 @@ This is a simple HTML and CSS project that displays social media icons with tool
 - Tooltips on hover using only HTML and CSS  
 - Responsive and centered design
 
-## 🚀 Live Demo
-
-[Click here to view live](https://its-coder1.github.io/My_First_Repository/) 
 
 ## 🛠️ Installation
 
